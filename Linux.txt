@@ -1,0 +1,50 @@
+Using the Terminal Operate  the computer
+
+Shell is the cli which takes the input and pass to os for the operations
+
+
+mkdir tutorials				 (makes a dir named tutorials)
+cd . .						 (go to previous folder)
+cd   						 ( jump to home dir)
+where						 (to know the path where it is running)
+enviroment variables				 (It will change how the process and commands are excuted)
+echo 						(Display)
+echo $PATH 					 (Displays all the path stored in the environment variables)
+where echo
+ls -a 						(list all files)
+cat filename					(display whats inside the file)
+pwd						(working dir)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ls -l [long detail]						(More info about files like permissions and stuff)
+ls -al[all long_details]
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cd .								(change to current dir)
+cd . .								(change to previous dir)
+cd . ./foldername						(change to previous dir to folder named "foldername")
+cd ~/path of folder						(pass the folder path to jump in directly)
+cd -R								(shows the files in sub dir recursive)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cat filename							(list outs the text inside the files)
+cat > Hello 							(it creates a hello file)
+cat firstfile.txt two.txt > total.txt
+" > "                                                 					(It inserts into file and also overwrites the pre existing text/information in side a files)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+man commandname						(Know info about a command)
+
+" | " [tunnel] tunneling or pipe 				(op of the first commnd act input for second file)
+
+ex : cat file.txt | tr a-z A-Z > upper.txt (open the file.txt | translate into smaller to upper char and write to upper .txt file)
+cat file.txt \ 							(to write into the file)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+touch names.txt						(creates name.txt file)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cp files.txt copy_file.txt					(creates copy of files.txt in copy_file.txt)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+mv filename new_path/folder				(moves a file to destination path )
+mv files.txt newName.txt					(It renames files.txt to newName.txt)
+mv name.txt . ./newName.txt				(move files to previous and rename to newname)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+rm filename							(it will permanently removes the file)
