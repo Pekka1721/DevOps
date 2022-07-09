@@ -45,6 +45,40 @@ cp files.txt copy_file.txt					(creates copy of files.txt in copy_file.txt)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 mv filename new_path/folder				(moves a file to destination path )
 mv files.txt newName.txt					(It renames files.txt to newName.txt)
+mv sourcefile random
 mv name.txt . ./newName.txt				(move files to previous and rename to newname)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 rm filename							(it will permanently removes the file)
+rm -R foldername						(R for dir.)
+rm -rf filename						(force remove)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------sudo								(super user  do)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+df								 (freedisk volumes)
+df -m								(in mb format)
+df -hm								(human redable format in megabytes)
+du 								(disk usage statics)
+du -h
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+head								(to view few lines of a file[top 10 lines])
+head -n 4 filename						(show only the first4 lines)
+tail 								(to view from  bottom)
+tail -n -2 filename						(to view only last 2 lines )
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------diff fileone filetwo 						(compares the file line by line and op the line that are not matched)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+locate "*.txt"							(to locate the files ending with .txt)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+find path
+find . -type d							(find only current directories) . for current fir 
+find . -type f -name"*.txt"/ iname
+
+find . -type f -min -20						(show files modifies less than 20min ago)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+files permissions 
+rwx 
+chmod u=rwx, g=rx, o=r filesname
+chmod 777 filesname
+4 - read
+2 -write
+1 - execute
+
+chown  root filename
