@@ -2,6 +2,7 @@ Using the Terminal Operate  the computer
 
 Shell is the cli which takes the input and pass to os for the operations
 
+Use man [command] to know about the what a command does 
 
 mkdir tutorials				 (makes a dir named tutorials)
 cd . .						 (go to previous folder)
@@ -72,6 +73,7 @@ find . -type d							(find only current directories) . for current fir
 find . -type f -name"*.txt"/ iname
 
 find . -type f -min -20						(show files modifies less than 20min ago)
+find . -type f -name "*.txt" -exec rm -rf {} +			( run a command on so many files in an iterative mode)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 files permissions 
 rwx 
@@ -82,3 +84,54 @@ chmod 777 filesname
 1 - execute
 
 chown  root filename
+Use sudo when a file has root user person 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+grep  -w "Kunal" filename						( to find specific information inside a file)
+grep  "Kunal" filename
+grep -n "Kunal" filename						(show in which line word kunal is there)
+grep -B 3 "Rahul" filename 						(show all the names befor rahul)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+history 
+history| grep "ls -l"
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+regex 
+find out about regular expression
+set alais
+check out bashrc file
+ctrl+a 									(move to start)
+ctrl+e									(move to end)
+ ctrl+u
+tab
+!history 
+ctrl l
+ctrl r
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+cmd; cmd;cmd (multiple cmds in a single line)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+sort filename
+
+jobs 									(lists the process )
+
+ping
+wget (download files form web)
+yum apt rpm 
+wget url of the file
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------top 									(task manager in windows)
+kill process id								(stop a running process) =harmful command
+uname (info about the system
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------zip filesname.zip  newfilename
+unzip
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+hostname 
+
+man hostname to find more
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+useradd U1 
+passwd U1
+
+
+lscpu 
+free 										(free memory)
+vmstat										(virtual memory)
+
