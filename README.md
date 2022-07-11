@@ -1,2 +1,2 @@
-# DevOps
-Journey of My DevOps Learnings
+```DevOps```
+- Linux Cheat Sheet
